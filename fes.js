@@ -1,3 +1,4 @@
-let hot = true
+for (i=1; 1<=20; i++) {
+    console.log(i)
+}
 
-hot ? console.log('weather is hour outside')  : console.log('weather is cold')

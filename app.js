@@ -57,3 +57,8 @@ while (count<=100) {
     console.log(count)
     count++
 }
+
+for (let i = 0; i<3; i++) {
+    console.log(i)
+
+}
