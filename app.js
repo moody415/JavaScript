@@ -42,3 +42,17 @@ console.log(temperature)
 
 hot ? console.log('weather is hot outside')  : console.log('weather is cold')
 
+//
+
+let currency = 50
+let price = 40
+let isStoreOpen = true
+
+cash>=price && isStoreOpen ? console.log("give receipt") : console.log("do not give receipt")
+
+
+let count = 1
+
+while (count<=100) {
+    console.log(count)
+}
