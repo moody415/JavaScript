@@ -104,6 +104,14 @@ console.log(newArray)
 
 let dollars = [1 , 5 , 10 , 3];
 
-let newDollars = dollars.map(elements => elements * 100 )
+//let newDollars = dollars.map(elements => elements * 100 )
 
-console.log(newDollars)
+//console.log(newDollars)
+
+let cents = [];
+
+for (let i = 0; i < dollars.length++; i++) {
+    cents.push(dollars[i] * 100 )
+}
+
+console.log(cents);
