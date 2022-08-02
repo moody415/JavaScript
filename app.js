@@ -47,3 +47,11 @@ const celsiusFormula = (celsius) => {
 
 console.log(celsiusFormula(0))
 
+let item1 = 20
+let item2 = 30
+let item3 = 40
+let item4 = 50
+let item5 = 100
+//converting 5 seperate variables into one array
+let arr = [20, 30, 40, 100]
+ 
