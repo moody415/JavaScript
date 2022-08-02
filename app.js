@@ -21,8 +21,11 @@ for (let i=0; i<str.length; i++) {
     console.log(str[i])
 
 }
-
-function welcomePersonFes() {
-    
+//  Function definition
+function welcomePersonToFes(firstName, lastName) {
+    console.log(`Welcome to FES, ${firstName} ${lastName} !`)
 }
 
+// Call the function
+
+welcomePersonToFes(`Mahmudul`, `Hasan`)
