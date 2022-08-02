@@ -31,7 +31,7 @@ function welcomePersonToFes(firstName, lastName) {
 
 
 welcomePersonToFes(`Mahmudul`, `Hasan`)
-*/
+
 
 function fn() {
     return 'my return'
@@ -39,10 +39,10 @@ function fn() {
 }
 
 fn()
+*/
 
-function celsiusFormula(celsius) {
-    let fahrenheit = celsius * 1.8 + 32
-    return fahrenheit
+const celsiusFormula = (celsius) => {
+    return celsius * 1.8 + 32
 }
 
 console.log(celsiusFormula(0))
