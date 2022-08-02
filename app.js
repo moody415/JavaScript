@@ -52,6 +52,18 @@ let item2 = 30
 let item3 = 40
 let item4 = 50
 let item5 = 100
-//converting 5 seperate variables into one array
+// Converting 5 Seperate Sariables into One Array
 let arr = [20, 30, 40, 100]
+
+// First element of array :
+
+console.log(arr[0])
+
+// Last element of array
+
+console.log(arr[arr.length -1])
+
+arr.push(200)
+
+console.log(arr)
  
