@@ -66,7 +66,7 @@ console.log(arr[arr.length -1])
 arr.push(200)
 
 console.log(arr)
-*/
+
 
 let arr = [20, 30, 40, 50, 100]
 
@@ -91,3 +91,19 @@ for (let i=0; i < grades.length; i++ ) {
 }
 
 console.log(goodGrades)
+
+
+let array = [1, 4, 9, 16]
+
+  let newArray = array.map(element => element * .5
+)
+
+console.log(newArray)
+*/
+
+
+let dollars = [1 , 5 , 10 , 3];
+
+let newDollars = dollars.map(elements => elements * 100 )
+
+console.log(newDollars)
