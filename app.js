@@ -1,5 +1,5 @@
 // DRY - Don't Repeat Yourself
-for (let i=1; i<=20; i++) {
+/*for (let i=1; i<=20; i++) {
 if (i % 3 === 0 && i % 5 === 0) {
     console.log(`${i} -> Frontend Simplified`)
 }
@@ -28,4 +28,22 @@ function welcomePersonToFes(firstName, lastName) {
 
 // Call the function
 
+
+
 welcomePersonToFes(`Mahmudul`, `Hasan`)
+*/
+
+function fn() {
+    return 'my return'
+    console.log('my function')
+}
+
+fn()
+
+function celsiusFormula(celsius) {
+    let fahrenheit = celsius * 1.8 + 32
+    return fahrenheit
+}
+
+console.log(celsiusFormula(0))
+
