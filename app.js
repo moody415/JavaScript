@@ -79,6 +79,15 @@ console.log(newArr)
 
 let grades = ['A+', 'A' , 'FAIL']
 
-let newGrades = grades.filter(elements => elements != 'FAIL')
+//let newGrades = grades.filter(elements => elements != 'FAIL')
 
-console.log(newGrades)
+//console.log(newGrades)
+
+let goodGrades = []
+
+for (let i=0; i < grades.length; i++ ) {
+    if (grades[i] !== 'Fail')
+    goodGrades.push(grades[i])
+}
+
+console.log(goodGrades)
