@@ -98,7 +98,7 @@ let array = [1, 4, 9, 16]
   let newArray = array.map(element => element * .5)
 
 console.log(newArray)
-*/
+
 
 
 let dollars = [1 , 5 , 10 , 3];
@@ -114,6 +114,7 @@ for (let i = 0; i < dollars.length++; i++) {
 }
 
 console.log(cents);
+*/
 
 let userFirstName = 'Mahmudul'
 let userLastName = 'Hasan'
@@ -124,7 +125,10 @@ let user = {
     username: 'Mahmudul', 
     email: 'Mahmudul8522@gmail.com',
     status: 'Vip' ,
+    lessonsCompleted: [0]
 
 }
 
-console.log(user.username)
+console.log(user.username[0])
+
+console.log(user.status.map(element => element * 2))
