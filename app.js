@@ -95,8 +95,7 @@ console.log(goodGrades)
 
 let array = [1, 4, 9, 16]
 
-  let newArray = array.map(element => element * .5
-)
+  let newArray = array.map(element => element * .5)
 
 console.log(newArray)
 */
@@ -115,3 +114,17 @@ for (let i = 0; i < dollars.length++; i++) {
 }
 
 console.log(cents);
+
+let userFirstName = 'Mahmudul'
+let userLastName = 'Hasan'
+let userDiscordId = 'Mahmudul Hasan'
+let Status = 'Vip'
+
+let user = {
+    username: 'Mahmudul', 
+    email: 'Mahmudul8522@gmail.com',
+    status: 'Vip' ,
+
+}
+
+console.log(user.username)
