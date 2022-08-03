@@ -114,21 +114,60 @@ for (let i = 0; i < dollars.length++; i++) {
 }
 
 console.log(cents);
-*/
+
 
 let userFirstName = 'Mahmudul'
 let userLastName = 'Hasan'
 let userDiscordId = 'Mahmudul Hasan'
 let Status = 'Vip'
 
-let user = {
+let user = [ 
+    {
     username: 'Mahmudul', 
     email: 'Mahmudul8522@gmail.com',
+    password: 'test123',
     status: 'Vip' ,
     lessonsCompleted: [0]
 
+},
+{
+    user : 'Mitri',
+    username: 'Mahmudul', 
+    email: 'Mitri@gmail.com',
+    password: 'test1234',
+    status: 'Vip+' ,
+    lessonsCompleted: [0]
+}
+]
+
+function login(email, password) {
+    for(i=0; i < user.length; i++) {
+        console.log(user[i])
+    }
+    console.log(email, password)
 }
 
-console.log(user.username[0])
+login('mahmudul@gmail.com', 'test123')
+*/
 
-console.log(user.status.map(element => element * 2))
+
+
+let users = [ {
+    username: 'Mahmudul', 
+    email: 'Mahmudul8522@gmail.com',
+    password: 'test123',
+    subscriptionStatus: 'Vip' ,
+    discordId : '34556',
+    lessonsCompleted: '0',
+}
+
+]
+
+function register(username, email, password, subscriptionStatus, discordId, lessonsCompleted) {
+    //for(i=0; i <users.length; i++) 
+    {
+        console.log(username, password)
+    }
+}
+
+register('zen123 ', '345',)
