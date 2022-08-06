@@ -170,4 +170,11 @@ function register(username, email, password, subscriptionStatus, discordId, less
     }
 }
 
-register('zen123 ', '345',)
+
+// First way of accessing an element
+
+document.querySelector('#title')
+
+// Second way of accessing an element
+
+document.getElementById('title')
