@@ -149,7 +149,7 @@ function login(email, password) {
 }
 
 login('mahmudul@gmail.com', 'test123')
-*/
+
 
 
 
@@ -212,5 +212,17 @@ function frontEnd(phrase) {
 }
 
 console.log(frontEnd('Apple'))
+*/
 
 
+function sumGreaterThan100 (Num1, Num2) {
+    return Num1 + Num2 > 100    
+}
+
+console.log(sumGreaterThan100(20,10))
+
+function lessThanOrEqualToZero (num5) {
+    return num5 <=0
+}
+
+console.log(lessThanOrEqualToZero(-2))
