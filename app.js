@@ -1,3 +1,4 @@
+
 // DRY - Don't Repeat Yourself
 /*for (let i=1; i<=20; i++) {
 if (i % 3 === 0 && i % 5 === 0) {
@@ -189,4 +190,27 @@ function hoursIntoSecond(Num3) {
     return Num3 *3600
 }
 
-console.log(hoursIntoSecond(2))
+console.log(hoursIntoSecond(3))
+
+//
+
+function calcPerimiter(length, width) {
+    return 2 * length + 2 * width
+}
+
+console.log(calcPerimiter(6,7))
+
+
+function calcTriangleArea(base, height) {
+    return .5 * base * height
+}
+
+console.log(calcTriangleArea(20,20))
+
+function frontEnd(phrase) {
+    return phrase + 'Frontend'
+}
+
+console.log(frontEnd('Apple'))
+
+
