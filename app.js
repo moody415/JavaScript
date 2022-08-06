@@ -178,3 +178,9 @@ document.querySelector('#title')
 // Second way of accessing an element
 
 document.getElementById('title')
+
+function addition(num1,num2) {
+    return num1 + num2
+}
+
+console.log(addition)
