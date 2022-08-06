@@ -183,4 +183,10 @@ function addition(num1,num2) {
     return num1 + num2
 }
 
-console.log(addition)
+console.log(addition(3,5))
+
+function hoursIntoSecond(Num3) {
+    return Num3 *3600
+}
+
+console.log(hoursIntoSecond(2))
