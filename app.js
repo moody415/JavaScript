@@ -1,5 +1,6 @@
 
 
+
 // DRY - Don't Repeat Yourself
 /*for (let i=1; i<=20; i++) {
 if (i % 3 === 0 && i % 5 === 0) {
@@ -221,7 +222,7 @@ function sumGreaterThan100 (Num1, Num2) {
 }
 
 console.log(sumGreaterThan100(20,10))
-*/
+
 
 function lessThanOrEqualToZero(num) {
     return num <= 0
@@ -231,12 +232,16 @@ function lessThanOrEqualToZero(num) {
 
 
 function oppositeBoolean (bool) {
-    if (bool === true) {
-        return false
-    }
-    else {
-        return true
-    }
+    return !true
 }
 
 console.log(oppositeBoolean(true))
+*/
+
+function isNotZero(num1) {
+    return num1 !== 0 
+}
+
+console.log(isNotZero(0))
+
+
