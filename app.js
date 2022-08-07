@@ -253,6 +253,3 @@ console.log(calcRemainder(9,8));
 
 */
 
-function isOdd(num1,num2) {
-    
-}
