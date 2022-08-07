@@ -236,7 +236,7 @@ function oppositeBoolean (bool) {
 }
 
 console.log(oppositeBoolean(true))
-*/
+
 
 function isNotZero(num1) {
     return num1 !== 0 
@@ -245,3 +245,14 @@ function isNotZero(num1) {
 console.log(isNotZero(0))
 
 
+function calcRemainder(Num1, Num2) {
+    return Num1 % Num2;
+}
+
+console.log(calcRemainder(9,8));
+
+*/
+
+function isOdd(num1,num2) {
+    
+}
