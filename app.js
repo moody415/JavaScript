@@ -227,11 +227,11 @@ function lessThanOrEqualToZero(num) {
     return num <= 0
 }
 
-console.log(lessThanOrEqualToZero(-2))
+//console.log(lessThanOrEqualToZero(-2))
 
 
 function oppositeBoolean (bool) {
-    if (bool = true) {
+    if (bool === true) {
         return false
     }
     else {
