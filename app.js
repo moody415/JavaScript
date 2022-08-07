@@ -1,4 +1,5 @@
 
+
 // DRY - Don't Repeat Yourself
 /*for (let i=1; i<=20; i++) {
 if (i % 3 === 0 && i % 5 === 0) {
@@ -212,7 +213,7 @@ function frontEnd(phrase) {
 }
 
 console.log(frontEnd('Apple'))
-*/
+
 
 
 function sumGreaterThan100 (Num1, Num2) {
@@ -220,9 +221,22 @@ function sumGreaterThan100 (Num1, Num2) {
 }
 
 console.log(sumGreaterThan100(20,10))
+*/
 
-function lessThanOrEqualToZero (num5) {
-    return num5 <=0
+function lessThanOrEqualToZero(num) {
+    return num <= 0
 }
 
 console.log(lessThanOrEqualToZero(-2))
+
+
+function oppositeBoolean (bool) {
+    if (bool = true) {
+        return false
+    }
+    else {
+        return true
+    }
+}
+
+console.log(oppositeBoolean(true))
