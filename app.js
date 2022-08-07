@@ -251,7 +251,7 @@ function calcRemainder(Num1, Num2) {
 
 console.log(calcRemainder(9,8));
 
-*/
+
 
 function booleanInteger(num1) {
     if (num1 % 2 ===0) {
@@ -261,3 +261,14 @@ function booleanInteger(num1) {
 }
 
 console.log(booleanInteger(6))
+
+*/
+
+function isLoggedIn(logged,subscribed) {
+    if (logged === 'Logged' && subscribed === ' Subscribeds') {
+        return true;
+    }
+    return false;
+}
+
+console.log(isLoggedIn('Logged','Subscribed'))
