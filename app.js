@@ -253,3 +253,11 @@ console.log(calcRemainder(9,8));
 
 */
 
+function booleanInteger(num1) {
+    if (num1 % 2 ===0) {
+        return 1;
+    }
+    return -1;
+}
+
+console.log(booleanInteger(6))
