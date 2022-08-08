@@ -298,15 +298,28 @@ function calcTime(num) {
 }
 
 console.log(calcTime(4))
-*/
 
-function getMax(seconds) {
+
+function getMax(arr) {
   let max = arr[0];
-  for (i = 0; i < seconds.length; i++) {
+  for (i = 0; i < arr.length; i++) {
     if (arr[i] > max) {
       max = arr[i];
     }
   }
+  return max;
 }
 
 console.log(getMax([-100, -200, -300]));
+
+*/
+
+function reverseString(phrase) {
+  let reverseString = "";
+  for (i = 0; i < phrase.length; i++) {
+    reverseString = phrase[i] + reverseString;
+  }
+  return reverseString;
+}
+
+console.log(reverseString("abc"));
