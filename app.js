@@ -279,7 +279,7 @@ function arrayLength(arr) {
 }
 
 console.log(arrayLength([1,2,3,5]));
-*/
+
 
 function arrSum(arr) {
     let sum = 0;
@@ -291,4 +291,14 @@ function arrSum(arr) {
 }
 
 console.log([3,3,4])
+*/
 
+function pogressiveSum(num) {
+    let sum = 0;
+    for (i = 0; i < num; i++) {
+        sum = sum + i;
+    }
+    return sum;
+}
+
+console.log(pogressiveSum(3))
