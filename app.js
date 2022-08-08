@@ -272,8 +272,23 @@ function isLoggedIn(logged,subscribed) {
 }
 
 console.log(isLoggedIn('Logged','Subscribed'))
+
+
+function arrayLength(arr) {
+    return arr.length -1;
+}
+
+console.log(arrayLength([1,2,3,5]));
 */
 
-function filterOutFalsy(num1, num2) {
-
+function arrSum(arr) {
+    let sum = 0;
+    for (i=0; i < arr.length; i++) {
+        console.log(arr[i])
+        sum= sum + arr[i];
+    }
+    return sum;
 }
+
+console.log([3,3,4])
+
