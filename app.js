@@ -1,6 +1,3 @@
-
-
-
 // DRY - Don't Repeat Yourself
 /*for (let i=1; i<=20; i++) {
 if (i % 3 === 0 && i % 5 === 0) {
@@ -291,14 +288,25 @@ function arrSum(arr) {
 }
 
 console.log([3,3,4])
-*/
 
-function pogressiveSum(num) {
-    let sum = 0;
-    for (i = 0; i < num; i++) {
-        sum = sum + i;
-    }
-    return sum;
+
+function calcTime(num) {
+    let timerMinutes = Math.floor(seconds / 60)
+    let timerSeconds = seconds % 60;
+
+    return timerMinutes + ':' + timerSeconds;
 }
 
-console.log(pogressiveSum(3))
+console.log(calcTime(4))
+*/
+
+function getMax(seconds) {
+  let max = arr[0];
+  for (i = 0; i < seconds.length; i++) {
+    if (arr[i] > max) {
+      max = arr[i];
+    }
+  }
+}
+
+console.log(getMax([-100, -200, -300]));
