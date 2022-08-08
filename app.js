@@ -262,7 +262,7 @@ function booleanInteger(num1) {
 
 console.log(booleanInteger(6))
 
-*/
+
 
 function isLoggedIn(logged,subscribed) {
     if (logged === 'Logged' && subscribed === ' Subscribeds') {
@@ -272,3 +272,8 @@ function isLoggedIn(logged,subscribed) {
 }
 
 console.log(isLoggedIn('Logged','Subscribed'))
+*/
+
+function filterOutFalsy(num1, num2) {
+
+}
