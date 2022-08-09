@@ -312,7 +312,7 @@ function getMax(arr) {
 
 console.log(getMax([-100, -200, -300]));
 
-*/
+
 
 function reverseString(phrase) {
   let reverseString = "";
@@ -323,3 +323,5 @@ function reverseString(phrase) {
 }
 
 console.log(reverseString("abc"));
+
+*/
