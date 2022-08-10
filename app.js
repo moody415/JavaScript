@@ -313,20 +313,18 @@ function getMax(arr) {
 console.log(getMax([-100, -200, -300]));
 
 
-
-function reverseString(phrase) {
-  let reverseString = "";
-  for (i = 0; i < phrase.length; i++) {
-    reverseString = phrase[i] + reverseString;
-  }
-  return reverseString;
-}
-
 console.log(reverseString("abc"));
 
-*/
+
 
 function reverseString(str) {
-  let reverseString = "";
-  for (let i = str.length - 1; i >= 0; i--) {}
+    return str.split('').reverse().join('');
+}
+*/
+
+function convertToZeros(arr) {
+  for (i = 0; i < arr.length; i++) {
+    arr[i] = 0;
+  }
+  return arr;
 }
