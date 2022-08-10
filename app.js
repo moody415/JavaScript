@@ -324,6 +324,7 @@ function reverseString(str) {
 
 function convertToZeros(arr) {
   return arr.map((elem) => 0);
+  
 }
 
 */
