@@ -320,10 +320,16 @@ console.log(reverseString("abc"));
 function reverseString(str) {
     return str.split('').reverse().join('');
 }
-*/
+
 
 function convertToZeros(arr) {
   return arr.map((elem) => 0);
 }
 
-console.log(convertToZeros([1, 2, 3]));
+*/
+
+function removeApple(arr) {
+  return arr.filter((elem) => !!elem === true);
+}
+
+console.log(removeApple([5, undefined, 7, null, "", "apple"]));
