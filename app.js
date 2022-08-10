@@ -323,8 +323,7 @@ function reverseString(str) {
 */
 
 function convertToZeros(arr) {
-  for (i = 0; i < arr.length; i++) {
-    arr[i] = 0;
-  }
-  return arr;
+  return arr.map((elem) => 0);
 }
+
+console.log(convertToZeros([1, 2, 3]));
