@@ -334,10 +334,36 @@ function removeApple(arr) {
 
 console.log(removeApple([5, undefined, 7, null, "", "apple"]));
 
-*/
 
-function arrLength(arr) {
-    return arr.length;
+
+function arrSum(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum = sum + arr[i];
+    }
+    return sum
 }
 
-console.log(arr[1, 2, 3, 4, 5]);
+console.log(arrSum([1, 2, 3, 4, 5]));
+
+
+
+function pogressiveSum(num) {
+    let sum = 0;
+    for (let i = 0; i <= num; i++) {
+        sum = sum + i;
+    }
+    return sum;
+}
+console.log(pogressiveSum(3))
+
+*/
+
+function calcTime(seconds) {
+    let timerSeconds = Math.floor(seconds % 60)
+    let timerMinutes = seconds / 60;
+
+    return timerMinutes + ':' + timerSeconds
+}
+
+console.log(calcTime(75));
