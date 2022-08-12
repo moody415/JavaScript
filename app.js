@@ -327,10 +327,17 @@ function convertToZeros(arr) {
   
 }
 
-*/
 
 function removeApple(arr) {
   return arr.filter((elem) => !!elem === true);
 }
 
 console.log(removeApple([5, undefined, 7, null, "", "apple"]));
+
+*/
+
+function arrLength(arr) {
+    return arr.length;
+}
+
+console.log(arr[1, 2, 3, 4, 5]);
